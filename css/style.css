@@ -87,3 +87,16 @@ button a{
 .fas{
     margin-left: 10px;
 }
+.logo{
+     margin-top: 70px;
+     margin-bottom: 60px;
+}
+hr{
+    border-bottom: 1px solid gray;
+}
+.logo-items{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    height: 110px;
+}
