@@ -65,7 +65,7 @@ ul li a{
 }
 .title::before {
     background-color: #E02C6D;
-    animation: typewriter 5s ease forwards;
+    animation: typewriter 5s ease-in forwards;
 }
 @keyframes typewriter {
     to {
