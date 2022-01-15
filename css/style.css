@@ -51,6 +51,27 @@ ul li a{
 .Influence-title{
     margin-top: 100px;
 }
+.title {
+    position: relative;
+}
+.title::before,
+.title::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.title::before {
+    background-color: #E02C6D;
+    animation: typewriter 5s ease forwards;
+}
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
 .Influence-title h1{
     color: #3A3A3A;
     font-size: 52px;
