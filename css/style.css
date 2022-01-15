@@ -88,6 +88,12 @@ ul li a{
     margin-bottom: 30px;
     padding-right: 133px;
 }
+.Influence-animation {
+    transition: transform 1s;
+}
+.Influence-animation:hover{
+    transform: translate(-50px, -50px);
+}
 .Influence-photo img{
     width: 440px;
     height: 414px;
