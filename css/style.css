@@ -260,7 +260,7 @@ footer{
     padding: 20px;
 }
 /* responsive style */
-@media (max-width:992px) {
+@media (max-width:1024px) {
    nav {
        flex-direction: row;
    }
