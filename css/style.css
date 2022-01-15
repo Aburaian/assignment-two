@@ -141,7 +141,6 @@ hr{
     width: 350px;
     height: 256px;
     border-radius: 5px;
-    background-image: cover;
 }
 .product-details h3{
     color: #18191F;
@@ -223,7 +222,6 @@ footer{
     text-align: center;
     margin-top: 80px;
 }
-
 .footer-area h3{
     font-size: 24px;
     line-height: 36px;
@@ -240,6 +238,77 @@ footer{
     text-align: center;
     padding: 20px;
 }
+/* responsive style */
+@media (max-width:992px) {
+   nav {
+       flex-direction: row;
+   }
+   ul li{
+       margin-right: 10px;
+   }
+   .Influence {
+       flex-direction: column;
+       align-items: center;
+       padding: 30px;
+   }
+   .Influence p {
+       padding-right: 0;
+   }
+   button {
+       margin-bottom: 50px;
+   }
+   .logo-items {
+       grid-template-columns: repeat(4, 1fr);
+       padding: 20px;
+   }
+   .product-list {
+       grid-template-columns: repeat(2, 1fr)
+   }
+   .product-thumbnail img {
+       width: 100%;
+   }
 
-
-
+   .Instagram {
+       grid-template-columns: repeat(1, 1fr);
+   }
+}
+@media (max-width: 668px) {
+    nav {
+        flex-direction: column;
+    }
+    ul li {
+        margin-right: 10px;
+        padding-left: 10px;
+    }
+    .Influence {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .Influence p{
+        padding-right: 0;
+    }
+    button{
+        margin-bottom: 50px;
+    }
+    .logo-items {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+    
+    }
+    .logo-items img{
+        margin-top: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .product-list {
+        grid-template-columns:repeat(1, 1fr)
+    }
+    .product-thumbnail img{
+        width: 100%;
+    }
+    .Instagram {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
